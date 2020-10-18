@@ -1,0 +1,35 @@
+<html>
+<body>
+<input type="button" value="onclick" onclick="q();">
+<input type="button" value="onmouseover/out" onmouseover="w();" onmouseout="e();">
+<input type="button" value="odd array" onclick="y();">
+<script>
+function q()
+{
+document.body.style.backgroundColor="red"
+}
+function w()
+{
+document.body.style.backgroundColor="green"
+}
+function e()
+{
+document.body.style.backgroundColor="blue"
+}
+function y()
+{
+var a;
+var sum=0;
+arr=[12,13,14,17,19,10,20]
+for(a=0;a<=7;a++)
+{
+if(arr[a]%2==1)
+{
+var sum=sum+arr[a];
+}
+}
+document.write("sum of odd array is-"+sum);
+}
+</script>
+</body>
+</html>

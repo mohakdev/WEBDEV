@@ -1,0 +1,28 @@
+<html>
+<body>
+<input type="button" value="square" onclick="sq();"><br>
+<input type="button" value="cube" onclick="cb();"><br>
+<input type="button" value="change colour to red" onclick="clr();"><br>
+<input type="button" value="reset" onclick="cr();"><br>
+<script>
+function sq()
+{
+var n=prompt("enter a number for square");
+document.write("square is-"+(n*n));
+}
+function cb()
+{
+var i=prompt("enter a number for cube");
+document.write("cube is-"+(i*i*i));
+}
+function clr()
+{
+document.body.style.backgroundColor="red";
+}
+function cr()
+{
+document.body.style.backgroundColor="white";
+}
+</script>
+</body>
+</html>

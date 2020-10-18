@@ -1,0 +1,8 @@
+in this folder some programs have functions in it but some do not have.
+Function is only a set of statements and we can call set of statements by calling that Function.
+Syntax
+function functionname()
+{
+//statements
+}
+functionname()
